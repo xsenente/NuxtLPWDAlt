@@ -57,6 +57,11 @@ module.exports = {
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+    proxy: true
+  },
+
+  proxy: {
+    '/api/': 'https://xaviersenente.fr/WPNuxt/wp-json',
   },
 
   /*
