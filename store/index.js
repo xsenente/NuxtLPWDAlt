@@ -10,7 +10,7 @@ const store = () => new Vuex.Store({
     evenements: [],
     categories: null,
     categorieEvents: [],
-    wordpressAPI: 'http://localhost:8888/wpnuxt-lpwdalt/wp-json'
+    wordpressAPI: 'http://xaviersenente.fr/WPNuxt/wp-json'
   },
 
   mutations: {
