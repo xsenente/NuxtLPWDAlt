@@ -1,0 +1,25 @@
+@import 'partials/variables';
+@import 'partials/mixins';
+
+:root {
+	@each $name, $color in $colors {
+    --color-#{$name}: #{$color};
+  }
+}
+
+*, *:before, *:after { box-sizing: border-box; }
+
+::-moz-selection { background: color(selection); }
+::selection 		 { background: color(selection); }
+
+body {
+  font-family: map-get($typo, sans-serif), sans-serif;
+  font-size: pxToRem(16);
+  line-height: 1.75;
+  font-weight: 300;
+  color: color(darkColor);
+}
+
+main {
+	margin-top: 50px;
+}

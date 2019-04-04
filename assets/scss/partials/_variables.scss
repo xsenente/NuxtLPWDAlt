@@ -1,0 +1,30 @@
+
+// Colors
+$colors: (
+  lightColor: #fefcfa,
+  darkColor: #000000,
+  lightGrey: #F2ECE5,
+  darkGrey:  #5F5C68,
+  selection: #CAAE7B
+);
+
+$typo: (
+  serif: 'Playfair Display',
+  sans-serif: 'Open Sans'
+);
+
+// transition
+
+$transitionDefault: .3s all ease-in-out;
+
+// Responsive
+
+$smallScreen	 : 640px;
+$mediumScreen	 : 960px;
+$largeScreen	 : 1240px;
+
+$media_small       : 'only screen and (max-width: '$smallScreen')';
+$media_small_up    : 'only screen and (min-width: '$smallScreen + 1')';
+$media_medium_down : 'only screen and (max-width: '$mediumScreen')';
+$media_medium_up   : 'only screen and (min-width: '$mediumScreen + 1')';
+$media_large_down  : 'only screen and (max-width: '$largeScreen')';

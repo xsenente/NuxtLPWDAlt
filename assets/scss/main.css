@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Playfair+Display");
+:root {
+  --color-lightColor: #fefcfa;
+  --color-darkColor: #000000;
+  --color-lightGrey: #F2ECE5;
+  --color-darkGrey: #5F5C68;
+  --color-selection: #CAAE7B; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+::-moz-selection {
+  background: var(--color-selection); }
+
+::selection {
+  background: var(--color-selection); }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: 300;
+  color: var(--color-darkColor); }
+
+main {
+  margin-top: 50px; }
