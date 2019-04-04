@@ -43,6 +43,7 @@ module.exports = {
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
+    // '@nuxtjs/proxy',
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
     [
@@ -57,12 +58,13 @@ module.exports = {
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
-    proxy: true
+
+    // proxy: true
   },
 
-  proxy: {
-    '/api/': 'https://xaviersenente.fr/WPNuxt/wp-json',
-  },
+  /* proxy: {
+    '/api/': { target: 'https://xaviersenente.fr/WPNuxt/wp-json', pathRewrite: {'^/api/': ''} }
+  },*/ 
 
   /*
   ** Build configuration
